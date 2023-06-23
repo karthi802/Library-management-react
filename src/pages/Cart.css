@@ -1,0 +1,35 @@
+.cart {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+.cart-left {
+  margin-left: 40px;
+}
+
+.cart-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 210px;
+  width: 300px;
+  margin: 40px 40px 0 0;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #ccc;
+}
+
+.cart-right button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background-color: #343736;
+  cursor: pointer;
+}
+
+.cart-right button:hover {
+   background-color: #ddd;
+}
